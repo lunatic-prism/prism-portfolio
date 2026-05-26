@@ -219,12 +219,18 @@ export default function PrismPortfolio() {
                 key={index}
                 className="group bg-[#121212]/80 border border-[#2d2a28] rounded-2xl overflow-hidden hover:border-[#705142] transition duration-500"
               >
-                <div
-                  className="h-[420px] bg-cover bg-center transition duration-700 group-hover:scale-105"
-                  style={{
-                    backgroundImage: `linear-gradient(to top, rgba(8,8,8,0.75), rgba(8,8,8,0.15)), url(${poem.image})`,
-                  }}
-                />
+                <a
+                  href={poem.image}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div
+                     className="h-[420px] bg-cover bg-center transition duration-700 group-hover:scale-105 cursor-pointer"
+                     style={{
+                       backgroundImage: `linear-gradient(to top, rgba(8,8,8,0.75), rgba(8,8,8,0.15)), url(${poem.image})`,
+                       }}
+                  />
+                </a>
 
                 <div className="p-6">
                   <p
