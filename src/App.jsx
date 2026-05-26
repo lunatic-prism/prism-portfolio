@@ -40,7 +40,7 @@ export default function PrismPortfolio() {
     },
     {
       title: "Chand",
-      image: "/images/chand.jpg",
+      image: "/images/Chand.jpg",
     },
     {
       title: "Calling",
@@ -48,7 +48,7 @@ export default function PrismPortfolio() {
     },
     {
       title: "Moon",
-      image: "/images/moon.jpg",
+      image: "/images/Moon.jpg",
     },
   ];
 
@@ -283,7 +283,7 @@ export default function PrismPortfolio() {
             </p>
 
             <a
-              href="/files/ward17.pdf"
+              href="/files/Draft Ending.pdf"
               target="_blank"
               className="inline-block mt-10 uppercase tracking-[0.25em] text-sm text-[#d4b89a] hover:text-[#f1e8dc] transition"
             >
